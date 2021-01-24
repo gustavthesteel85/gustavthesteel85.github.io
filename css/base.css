@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.wapper-min {
+    width: 100%;
+    max-width: 760px;
+    margin: auto;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
+.flex-6 {
+    flex: 6;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-stretch {
+    align-items: stretch;
+}
+
+.btn {
+    border: 0;
+    width: 240px;
+    display: block;
+    border: 1px solid black;
+    background: #ffffff;
+    color: inherit;
+    padding: 0.5em 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 50px;
+    transition : all 0.4s;
+}
+
+.btn:hover {
+    background:black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-area {
+    margin: 0 auto;
+}
+
+body {
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans JP', "Aktiv Grotesk", "Helvetica", Meiryo, sans-serif; */
+    font-family: 'Noto Sans JP', "Aktiv Grotesk", "Helvetica", Meiryo, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #555555;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+/* video, */
+object {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+strong {
+    font-weight: 900;
+    color: #333333;
+}
+
+@media (max-width: 768px) {
+    /* html {
+        font-size: 100%;
+    }
+    .wrapper {
+        width: 90%;
+    } */
+    /* .flex {
+        flex-direction: column;
+    }
+    .flex > * {
+        width: 100%;
+    } */
+}

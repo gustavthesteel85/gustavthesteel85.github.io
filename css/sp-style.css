@@ -1,0 +1,185 @@
+/* ****************************** */
+/*               SP               */
+/* ****************************** */
+@media (max-width: 768px) {
+    /* common */
+    .btn {
+        margin-top: 0px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    /* header */
+    .header-address {
+        display: none;
+    }
+
+    .header-title {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .header-title img {
+        width: 50%;
+    }
+
+    .section {
+        margin-top: 0px;
+    }
+
+    /* 下層mv画像 */
+    .mv img {
+        width: 100%;
+        object-fit: cover;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    /* nav */
+    .gNav {
+        position: fixed;
+        top: 0;
+        left: 100%;
+        margin-top: 0px;
+    }
+
+    /* スペースを開けないことで両方あった場合に発動 */
+    .gNav.show {
+        left: 0px
+    }
+
+    .gNav-list {
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        justify-content: flex-start;
+        padding-top: 60px;
+        background: rgba(255, 255, 255, .8);
+    }
+    
+    .gNav-list li,
+    .gNav-list li:last-child {
+        width: 100%;
+        font-weight: 500;
+        text-align: center;
+        border-right: 1px solid #aaaaaa;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .gNav-list li:hover,
+    .gNav-list li:last-child:hover {
+        background-color: rgba(110, 110, 110, 0.2);
+    }
+
+    /* nav-button */
+    .nav-btn {
+        background: #094;
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+    }
+
+    .nav-btn span {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: white;
+        margin: 2px auto;
+    }
+
+    /* items */
+    .items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    .items .item h3 {
+        margin: 0;
+    }
+
+    /* news */
+    .news .news-list {
+        margin-bottom: 50px;
+    }
+
+    .news .news-list dl {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+        width: 80%;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .news .news-list dt {
+        width: 20%;
+        color: #898989;
+        font-size: 14px;
+        vertical-align: bottom;
+    }
+    
+    .news .news-list dd {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /* footer */
+    .footer {
+        /* margin-top: 60px; */
+    }
+
+    .footer > div > div {
+        flex-direction: column;
+    }
+
+    .footer .footer-address {
+        margin-bottom: 30px;
+    }
+
+    .footer .footer-nav {
+        width: 100%;
+        flex-wrap: nowrap;
+        margin-left: 0px;
+    }
+
+    .footer .footer-nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footer-nav ul li {
+        width: 100%;
+
+        margin-bottom: 0px;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .footer .footer-nav ul a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer .footer-nav ul a:hover {
+        background-color: rgb(255, 255, 255, .2);
+        border-radius: 3px;
+    }
+}

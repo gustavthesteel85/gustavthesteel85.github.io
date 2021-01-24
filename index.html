@@ -1,1 +1,306 @@
-Hello world
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- IE（Internet Explorer）用のおまじない。 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- デバイスの横幅に合わせる -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <!-- 電話番号が自動的にリンク扱いにされるのを防ぐ。 -->
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="description" content="ポートフォリオです">
+        <!-- <meta name="keywords" content="キーワードを,で区切って指定">
+        <meta name="google" content="nositelinkssearchbox" />
+        <meta name="google" content="notranslate" />
+        <meta name="language" content="Japanese" />
+        <meta name="author" content="著者名" />
+        <meta name="copyright" content="©著作者" />
+        <meta name="summary" content="ページ概要">
+        <meta name="subject" content="ページの主題">
+        <meta name="abstract" content="ページの要約">
+        <meta http-equiv="content-language" content="ja" />
+        <meta name="revisit_after" content="クロール再訪問日を指定" />
+        <meta name="reply-to" content="連絡先" /> -->
+
+        <title>portfolio</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/sp-style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap" rel="stylesheet">
+        <!-- Note Sans JP -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header-title">
+                <div class="wrapper flex items-center justify-center">
+                    <h1>
+                        <a href="./index.html" class="flex-col items-center">
+                            <div>Toshiki</div>
+                            <div class="portfolio">-portfolio-</div>
+                        </a>
+                    </h1>
+
+                    <nav class="gNav">
+                        <ul class="gNav-list flex justify-start">
+                            <li><a href="./items/index.html">WORKS</a></li>
+                            <li><a href="./index.html">PROFILE</a></li>
+                            <li><a href="#nws">BLOG</a></li>
+                            <li><a href="./faq/index.html">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- メニューボタン -->
+            <div class="nav-btn flex-col justify-center" id="js-navButton">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- トップ画像  -->
+            <div class="mv flex">
+                <video muted autoplay playinline loop>
+                    <source src="./image/digital-wave.mp4" type="video/mp4">
+                </video>
+                <div class="mv-title flex-col items-center">
+                    <div class="flex-col items-start">
+                        <h1>UI Design,</h1>
+                        <h1>Software Development,</h1>
+                        <h1>for Better Experiences.</h1>
+                    </div>
+                    <!-- <div class="icons">
+                        <a href="https://www.google.com/?hl=ja"><i class="fab fa-github"></i></a>
+                        <a href="#nws"><i class="fab fa-codepen"></i></a>
+                    </div> -->
+                    <p>Scroll</p>
+                </div>
+            </div>
+            <!-- <div class="mv flex justify-center items-center">
+                <h1 class="wrapper">Web Development</h1>
+                <h1 class="wrapper">Web Design</h1>
+                <div class="icons">
+                    <a href="#nws"><i class="fab fa-github"></i></a>
+                    <a href="#nws"><i class="fab fa-codepen"></i></a>
+                </div>
+            </div> -->
+        </header>
+
+        <!-- WORKS -->
+        <section id="wrk" class="section works">
+            <div class="wrapper flex-col justify-center items-stretch">
+                <h2 class="title flex-col justify-center">
+                    <span>WORKS</span>
+                </h2>
+                <!-- 上段 -->
+                <div class="flex justify-between flex-wrap works-upper">
+                    <section class="work flex-1">
+                        <img src="image/sample.jpg" alt="deliverables" />
+                        <div class="explanation">
+                            <h3>株式会社X様</h3>
+                            <article>
+                                <ul>
+                                    <li>担当範囲：全て</li>
+                                    <li>TOPページデザイン：X.0h</li>
+                                    <li>下層ページデザイン：X.0h</li>
+                                    <li>コーディング：2週間：X.0h</li>
+                                    <li>提案書作成：X.0h</li>
+                                </ul>
+                                <p>2021.01.24</p>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="work flex-1">
+                        <img src="image/sample.jpg" alt="deliverables" />
+                        <div class="explanation">
+                            <h3>株式会社X様</h3>
+                            <article>
+                                <ul>
+                                    <li>担当範囲：全て</li>
+                                    <li>TOPページデザイン：X.0h</li>
+                                    <li>下層ページデザイン：X.0h</li>
+                                    <li>コーディング：2週間：X.0h</li>
+                                    <li>提案書作成：X.0h</li>
+                                </ul>
+                                <p>2021.01.24</p>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="work flex-1">
+                        <img src="image/sample.jpg" alt="deliverables" />
+                        <div class="explanation">
+                            <h3>株式会社X様</h3>
+                            <article>
+                                <ul>
+                                    <li>担当範囲：全て</li>
+                                    <li>TOPページデザイン：X.0h</li>
+                                    <li>下層ページデザイン：X.0h</li>
+                                    <li>コーディング：2週間：X.0h</li>
+                                    <li>提案書作成：X.0h</li>
+                                </ul>
+                                <p>2021.01.24</p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+                <!-- 下段 -->
+                <div class="flex justify-between flex-wrap">
+                    <section class="work flex-1">
+                        <img src="image/sample.jpg" alt="deliverables" />
+                        <div class="explanation">
+                            <h3>株式会社X様</h3>
+                            <article>
+                                <ul>
+                                    <li>担当範囲：全て</li>
+                                    <li>TOPページデザイン：X.0h</li>
+                                    <li>下層ページデザイン：X.0h</li>
+                                    <li>コーディング：2週間：X.0h</li>
+                                    <li>提案書作成：X.0h</li>
+                                </ul>
+                                <p>2021.01.24</p>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="work flex-1">
+                        <img src="image/sample.jpg" alt="deliverables" />
+                        <div class="explanation">
+                            <h3>株式会社X様</h3>
+                            <article>
+                                <ul>
+                                    <li>担当範囲：全て</li>
+                                    <li>TOPページデザイン：X.0h</li>
+                                    <li>下層ページデザイン：X.0h</li>
+                                    <li>コーディング：2週間：X.0h</li>
+                                    <li>提案書作成：X.0h</li>
+                                </ul>
+                                <p>2021.01.24</p>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="work flex-1">
+                        <img src="image/sample.jpg" alt="deliverables" />
+                        <div class="explanation">
+                            <h3>株式会社X様</h3>
+                            <article>
+                                <ul>
+                                    <li>担当範囲：全て</li>
+                                    <li>TOPページデザイン：X.0h</li>
+                                    <li>下層ページデザイン：X.0h</li>
+                                    <li>コーディング：2週間：X.0h</li>
+                                    <li>提案書作成：X.0h</li>
+                                </ul>
+                                <p>2021.01.24</p>
+                            </article>
+                            <a href="#wrk">詳細</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="btn-area">
+                    <button class="btn">more</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROFILE -->
+        <section class="section profile">
+            <div id="pfl" class="wrapper flex-col justify-center items-stretch">
+                <h2 class="title flex-col justify-center">
+                    <span>PROFILE</span>
+                </h2>
+                <div class="profile-area flex justify-between">
+                    <div class="iam flex-col items-center flex-1">
+                        <img src="./image/myphoto.png" alt="">
+                        <div class="flex-col items-center">
+                            <h3>Toshiki</h3>
+                            <h4>Osaka, Japan</h4>
+                        </div>
+                        <div class="sns-area flex justify-around">
+                            <a href="#pfl"><i class="fab fa-facebook"></i></a>
+                            <a href="#pfl"><i class="fab fa-twitter"></i></a>
+                            <a href="#pfl"><i class="fab fa-instagram"></i></a>
+                            <a href="#pfl"><i class="fab fa-github"></i></a>
+                            <a href="#pfl"><i class="fab fa-codepen"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="iam-description flex-3">
+                        <p>ポートフォリオをご覧いただき、ありがとうございます。</p>
+                        <p>Webエンジニア兼Webデザイナーをしている粂と申します！</p>
+                        <br>
+                        <p>2014年に小売業からIT業界へ行き、2016年から開発者としてのキャリアを歩んでいます。</p>
+                        <p>「システムは直感的に使いやすくあるべき」を信条に、<strong>Web・アプリのUIデザインからシステム開発まで対応しています。</strong></p>
+                        <p>Webサイト制作からシステム開発まで、お客様のビジネス価値向上のためにコミュニケーションを大切にしながらお仕事させていただきます。</p>
+                        <br>
+                        <p>趣味：あああ、いいい</p>
+                    </div>
+                </div>
+                <div class="btn-area">
+                    <button class="btn">more</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="ctt" class="contact section wapper-min flex-col justify-center items-stretch">
+            <h2 class="title flex-col justify-center">
+                <span>CONTACT</span>
+                お問い合わせ
+            </h2>
+            <section class="news-list">
+                <div
+                    class="formrun-embed"
+                    data-formrun-form="@pugilatojp-1604743901"
+                    data-formrun-redirect="true">
+                </div>
+            </section>
+
+            <div class="btn-area">
+                <button class="btn">お知らせへ</button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="flex-col wrapper items-center">
+                <!-- <div class="empty">a</div> -->
+                <nav class="footer-nav">
+                    <div class="sns-area flex justify-around">
+                        <a href="#pfl"><i class="fab fa-facebook"></i></a>
+                        <a href="#pfl"><i class="fab fa-twitter"></i></a>
+                        <a href="#pfl"><i class="fab fa-instagram"></i></a>
+                        <a href="#pfl"><i class="fab fa-github"></i></a>
+                        <a href="#pfl"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </nav>
+                <!-- <address class="footer-address">
+                    <p><i class="fas fa-map-marker-alt"></i>&nbsp;Osaka, Japan</p>
+                    <p><i class="fas fa-envelope-square"></i>&nbsp;aaaaaa@gmail.com</p>
+                </address> -->
+            </div>
+            <div class="flex-1">
+                <small class="footer-copyright">Website design and content © 2020 Toshiki.</small>
+            </div>
+        </footer>
+
+        <!-- CDN -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./js/script.js" type="text/javascript"></script>
+        <script src="https://sdk.form.run/js/v2/embed.js"></script>
+
+    </body>
+
+</html>
