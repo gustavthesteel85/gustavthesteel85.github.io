@@ -149,7 +149,7 @@ object {
 
 strong {
     font-weight: 900;
-    color: #333333;
+    color:  rgb(33, 184, 211);
 }
 
 @media (max-width: 768px) {
