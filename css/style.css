@@ -29,14 +29,9 @@ header {
     position: fixed;
     background-color: rgba(255,255,255, 1);
     color: #555555;
-    /* color: white; */
     letter-spacing: .1em;
-    /* position: sticky; */
-    /* top: 0; */
     width: 100%;
-    /* opacity: .8; */
-    /* z-index: 1000; */
-    /* box-shadow: 0px 1px 30px 2px rgba(255, 255, 255, 0.5); */
+
 }
 
 .header-title h1 a {
@@ -153,35 +148,31 @@ header {
     width: 100%;
     height: 100%;
     content: '';
-    background: rgba(0, 0, 0, 0.208);
-    /* opacity: .4; */
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .mv .mv-title {
     position: absolute;
     align-self: center;
     width: 100%;
-    font-size: 1.4vw;
-    /* display: block; */
-    letter-spacing: .01em;
-    /* text-align: center; */
-    /* top: 32%; */
+    font-size: 2vw;
+    letter-spacing: .1em;
+    top: 23vw;
     z-index: 100;
     color: white;
 }
 
 .mv .mv-title .title-msg {
     padding: 20px 60px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1.8px solid white;
+    border-bottom: 1.8px solid white;
 }
 
 .mv .mv-title .scroll {
-    margin-top: 20px;
     transform: rotate(0deg);
     font-size: 1rem;
     margin-right: 10px;
-    margin-top: 30px;
+    margin-top: 2vw;
 }
 
 .mv .mv-title a {
@@ -189,6 +180,7 @@ header {
 }
 
 /* ---------------works----------------- */
+
 .works .works-upper > section,
 .works .works-lower > section {
     margin-right: 40px;
@@ -215,7 +207,7 @@ header {
 }
 
 .works .work h3 {
-    font-size: 20px;
+    font-size: .8em;
     font-weight: bold;
     text-align: center;
     padding: 10px 0px;
@@ -259,7 +251,7 @@ header {
 .profile .iam img {
     width: 9em;
     border-radius: 500px;
-    border: 4px solid rgb(33, 184, 211);
+    border: 4px solid rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
@@ -291,66 +283,48 @@ header {
     font-size: 1.2rem;
     margin-bottom: 1.2rem;
     padding-left: 1.2rem;
-    border-left: 5px solid rgb(33, 184, 211);
+    border-left: 5px solid rgb(0, 0, 0);
     line-height: 1.2em;
 }
 
-.profile .iam-description .desc {
-    margin-bottom: 4em;
+.profile .iam-description .desc{
+    margin-bottom: 3em;
 }
 
-.news .title span {
-    display: block;
-    color: #6f5008;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: 'Helvetica Neue';
-    text-align: center;
-}
-
-.profile .title {
-    color: #009944;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.news .news-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.news .news-list dl {
-    display: flex;
-    padding: 15px 0;
-    width: 100%;
-    border-bottom: 1px solid lightgray;
-}
-
-.news .news-list dt {
-    width: 20%;
-    color: #898989;
-    font-size: 14px;
-    vertical-align: bottom;
-}
-
-.news .news-list dd {
-    width: 80%;
-    font-size: 16px;
-}
-
-.news .news-list dd a {
+.profile .iam-description h3 a {
     color: inherit;
-    text-decoration: none;
 }
 
-.news .news-list dd a:hover {
-    color: #009944;
+.profile .iam-description .skill span {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.profile .iam-description .skill {
+    border: 1px solid rgb(224, 224, 224);
+    padding: 20px;
+    border-radius: 3px;
+    margin-right: 30px;
+    /* box-shadow: 0 0px 6px 0px rgba(172, 172, 172, 0.5); */
+}
+
+/* ---------------contact----------------- */
+.contact .btn-area .btn {
+    margin-top: 0px;
+}
+
+.contact .btn-area .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact .btn-area .btn a:hover {
+    color: white;
 }
 
 /* ---------------footer----------------- */
+
 .footer {
     background-color: #e6e6e6;
     color: #707070;
@@ -435,7 +409,7 @@ header {
 
 /* animation */
 .scroll a {
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 .scroll a span {
     position: absolute;
