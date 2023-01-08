@@ -290,19 +290,27 @@
             </h2>
             <form
                 action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdYG0EkPCPkSpFERdN1HHVpE3bQ3F1vNyv0bQ6_DRessSk6ZQ/formResponse"
-                id="form">
-                <div class="box">
-                    <label for="name">お名前(Name)</label>
+                id="form"
+                class="googleform flex-col items-center"
+            >
+                <div class="box flex-col">
+                    <label for="name">
+                        お名前
+                        <span>(必須)</span>
+                    </label>
                     <input type="text" name="entry.2005620554" id="name" placeholder="お名前" required>
                 </div>
-                <div class="box">
-                    <p class="box">件名(Subject)</p>
-                    <textarea name="entry.1166974658" id="" cols="30" rows="10" placeholder="自由記述"></textarea><!-- /# -->
+                <div class="box flex-col">
+                    <label for="textarea">
+                        お問合せ内容
+                        <span>(必須)</span>
+                    </label>
+                    <textarea name="entry.1166974658" id="textarea" cols="30" rows="10" placeholder="お問合せ内容"></textarea>
                 </div>
-                <input type="submit" class="submit-btn">
+                <input type="submit" class="submit-btn flex-col items-center">
             </form>
-            <p class="end-message">お問い合わせありがとうございました</p>
-            <p class="false-message">送信失敗です</p>
+            <!-- <p class="end-message">お問い合わせありがとうございました</p>
+            <p class="false-message">送信失敗です</p> -->
             <!-- <div class="btn-area">
                 <button class="btn">
                     <a href="https://forms.gle/aNrGdPSxM5omAodP9" target="_blank">Google Form</a>
