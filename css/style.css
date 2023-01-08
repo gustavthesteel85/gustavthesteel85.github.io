@@ -35,8 +35,6 @@ header {
 }
 
 .header-title h1 a {
-    /* font-family: 'Noto Sans JP', 'Open sans'; */
-    /* font-weight: bold; */
     color: #555555;
     font-size: 1.2em;
     line-height: 1.2;
@@ -60,7 +58,7 @@ header {
 .gNav-list li::after {
     content: '';
     display: block;
-    
+
     width: 0;
     height: 2px;
     background-color: #555555;
@@ -169,6 +167,21 @@ header {
     border-bottom: 1.8px solid white;
 }
 
+.mv .mv-title .mv-icons {
+    width: 100%;
+    margin-top: 1.5vw;
+}
+
+.mv .mv-title .mv-icons img {
+    width: 2rem;
+    margin-right: 40px;
+}
+
+.mv .mv-title .mv-icons img:last-child {
+    width: 2rem;
+    margin-right: 0px;
+}
+
 .mv .mv-title .scroll {
     transform: rotate(0deg);
     font-size: 1rem;
@@ -232,7 +245,7 @@ header {
 }
 
 .works .works-upper {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .works .title {
@@ -418,7 +431,7 @@ header {
     left: 50%;
     width: 24px;
     height: 24px;
-    margin-left: -12px;
+    margin-left: -.5rem;
     border-left: 1px solid #fff;
     border-bottom: 1px solid #fff;
     -webkit-transform: rotate(-45deg);
