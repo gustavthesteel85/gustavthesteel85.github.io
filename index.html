@@ -29,6 +29,9 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/sp-style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="icon" href="favicon.ico">
+        <link rel="apple-touch-icon" type="image/png" href="./image/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="./image/icon-192x192.png">
         <!-- google font -->
         <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap" rel="stylesheet">
         <!-- Note Sans JP -->
@@ -285,24 +288,30 @@
             <h2 class="title flex-col justify-center">
                 <span>CONTACT</span>
             </h2>
-            <section class="news-list">
-                <div
-                    class="formrun-embed"
-                    data-formrun-form="@pugilatojp-1604743901"
-                    data-formrun-redirect="true">
+            <form
+                action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdYG0EkPCPkSpFERdN1HHVpE3bQ3F1vNyv0bQ6_DRessSk6ZQ/formResponse"
+                id="form">
+                <div class="box">
+                    <label for="name">お名前(Name)</label>
+                    <input type="text" name="entry.2005620554" id="name" placeholder="お名前" required>
                 </div>
-            </section>
-
-            <div class="btn-area">
+                <div class="box">
+                    <p class="box">件名(Subject)</p>
+                    <textarea name="entry.1166974658" id="" cols="30" rows="10" placeholder="自由記述"></textarea><!-- /# -->
+                </div>
+                <input type="submit" class="submit-btn">
+            </form>
+            <p class="end-message">お問い合わせありがとうございました</p>
+            <p class="false-message">送信失敗です</p>
+            <!-- <div class="btn-area">
                 <button class="btn">
-                    <a href="https://docs.google.com/forms/d/1oWHceDPxA_RAH3I_k86TbU2fmaE7-Y6n-97amvaYL40/prefill" target="_blank">Google Form</a>
+                    <a href="https://forms.gle/aNrGdPSxM5omAodP9" target="_blank">Google Form</a>
                 </button>
-            </div>
+            </div> -->
         </section>
 
         <footer class="footer">
             <div class="flex-col wrapper items-center">
-                <!-- <div class="empty">a</div> -->
                 <nav class="footer-nav">
                     <div class="sns-area flex justify-around">
                         <a href="#pfl"><i class="fab fa-facebook"></i></a>
